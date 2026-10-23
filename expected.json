@@ -1,0 +1,1004 @@
+{
+ "cases": [
+  {
+   "fn": "rounds",
+   "args": [
+    "38",
+    "8"
+   ],
+   "expect": "The 38 questions at 8 a round make 5 rounds, the last round holding 6."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "38",
+    "8",
+    "2",
+    "3"
+   ],
+   "expect": "The 38 questions at 2 points each are worth 76 points, and 5 rounds at 3 bonus add 15, 91 in all."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "23",
+    "38"
+   ],
+   "expect": "23 correct of 38 is 60.5%."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "38",
+    "45",
+    "8",
+    "10"
+   ],
+   "expect": "The 38 questions at 45 seconds each with 4 breaks of 10 minutes take 4110 seconds, 1 hour 8 minutes 30 seconds."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 question at 1 a round make 1 round, the last round holding 1."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "40",
+    "8"
+   ],
+   "expect": "The 40 questions at 8 a round make 5 rounds, the last round holding 8."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "1",
+    "1",
+    "1",
+    "0"
+   ],
+   "expect": "The 1 question at 1 point each are worth 1 points, and 1 round at 0 bonus add 0, 1 in all."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "0",
+    "5"
+   ],
+   "expect": "0 correct of 5 is 0%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "5",
+    "5"
+   ],
+   "expect": "5 correct of 5 is 100%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "1",
+    "8"
+   ],
+   "expect": "1 correct of 8 is 12.5%."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1",
+    "1",
+    "0"
+   ],
+   "expect": "The 1 question at 1 second each with 0 breaks of 0 minutes take 1 seconds, 0 hours 0 minutes 1 second."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "108",
+    "71"
+   ],
+   "expect": "The 108 questions at 71 a round make 2 rounds, the last round holding 37."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "338",
+    "87"
+   ],
+   "expect": "The 338 questions at 87 a round make 4 rounds, the last round holding 77."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "50",
+    "25"
+   ],
+   "expect": "The 50 questions at 25 a round make 2 rounds, the last round holding 25."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "150",
+    "42"
+   ],
+   "expect": "The 150 questions at 42 a round make 4 rounds, the last round holding 24."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "490",
+    "36"
+   ],
+   "expect": "The 490 questions at 36 a round make 14 rounds, the last round holding 22."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "985",
+    "89"
+   ],
+   "expect": "The 985 questions at 89 a round make 12 rounds, the last round holding 6."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "692",
+    "5"
+   ],
+   "expect": "The 692 questions at 5 a round make 139 rounds, the last round holding 2."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "842",
+    "24"
+   ],
+   "expect": "The 842 questions at 24 a round make 36 rounds, the last round holding 2."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "89",
+    "42"
+   ],
+   "expect": "The 89 questions at 42 a round make 3 rounds, the last round holding 5."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "264",
+    "88"
+   ],
+   "expect": "The 264 questions at 88 a round make 3 rounds, the last round holding 88."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "753",
+    "87"
+   ],
+   "expect": "The 753 questions at 87 a round make 9 rounds, the last round holding 57."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "700",
+    "90"
+   ],
+   "expect": "The 700 questions at 90 a round make 8 rounds, the last round holding 70."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "165",
+    "58"
+   ],
+   "expect": "The 165 questions at 58 a round make 3 rounds, the last round holding 49."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "830",
+    "98"
+   ],
+   "expect": "The 830 questions at 98 a round make 9 rounds, the last round holding 46."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "313",
+    "4"
+   ],
+   "expect": "The 313 questions at 4 a round make 79 rounds, the last round holding 1."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "978",
+    "34"
+   ],
+   "expect": "The 978 questions at 34 a round make 29 rounds, the last round holding 26."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "210",
+    "63"
+   ],
+   "expect": "The 210 questions at 63 a round make 4 rounds, the last round holding 21."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "101",
+    "76"
+   ],
+   "expect": "The 101 questions at 76 a round make 2 rounds, the last round holding 25."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "429",
+    "44"
+   ],
+   "expect": "The 429 questions at 44 a round make 10 rounds, the last round holding 33."
+  },
+  {
+   "fn": "rounds",
+   "args": [
+    "843",
+    "36"
+   ],
+   "expect": "The 843 questions at 36 a round make 24 rounds, the last round holding 15."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "545",
+    "62",
+    "65",
+    "70"
+   ],
+   "expect": "The 545 questions at 65 points each are worth 35425 points, and 9 rounds at 70 bonus add 630, 36055 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "100",
+    "60",
+    "1",
+    "37"
+   ],
+   "expect": "The 100 questions at 1 point each are worth 100 points, and 2 rounds at 37 bonus add 74, 174 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "623",
+    "64",
+    "24",
+    "43"
+   ],
+   "expect": "The 623 questions at 24 points each are worth 14952 points, and 10 rounds at 43 bonus add 430, 15382 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "3",
+    "24",
+    "73",
+    "18"
+   ],
+   "expect": "The 3 questions at 73 points each are worth 219 points, and 1 round at 18 bonus add 18, 237 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "199",
+    "16",
+    "29",
+    "45"
+   ],
+   "expect": "The 199 questions at 29 points each are worth 5771 points, and 13 rounds at 45 bonus add 585, 6356 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "658",
+    "91",
+    "71",
+    "67"
+   ],
+   "expect": "The 658 questions at 71 points each are worth 46718 points, and 8 rounds at 67 bonus add 536, 47254 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "660",
+    "28",
+    "75",
+    "13"
+   ],
+   "expect": "The 660 questions at 75 points each are worth 49500 points, and 24 rounds at 13 bonus add 312, 49812 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "331",
+    "57",
+    "81",
+    "95"
+   ],
+   "expect": "The 331 questions at 81 points each are worth 26811 points, and 6 rounds at 95 bonus add 570, 27381 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "154",
+    "63",
+    "33",
+    "85"
+   ],
+   "expect": "The 154 questions at 33 points each are worth 5082 points, and 3 rounds at 85 bonus add 255, 5337 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "740",
+    "1",
+    "33",
+    "72"
+   ],
+   "expect": "The 740 questions at 33 points each are worth 24420 points, and 740 rounds at 72 bonus add 53280, 77700 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "979",
+    "55",
+    "5",
+    "57"
+   ],
+   "expect": "The 979 questions at 5 points each are worth 4895 points, and 18 rounds at 57 bonus add 1026, 5921 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "336",
+    "78",
+    "55",
+    "59"
+   ],
+   "expect": "The 336 questions at 55 points each are worth 18480 points, and 5 rounds at 59 bonus add 295, 18775 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "846",
+    "88",
+    "54",
+    "38"
+   ],
+   "expect": "The 846 questions at 54 points each are worth 45684 points, and 10 rounds at 38 bonus add 380, 46064 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "456",
+    "65",
+    "15",
+    "0"
+   ],
+   "expect": "The 456 questions at 15 points each are worth 6840 points, and 8 rounds at 0 bonus add 0, 6840 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "984",
+    "17",
+    "90",
+    "57"
+   ],
+   "expect": "The 984 questions at 90 points each are worth 88560 points, and 58 rounds at 57 bonus add 3306, 91866 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "330",
+    "31",
+    "1",
+    "46"
+   ],
+   "expect": "The 330 questions at 1 point each are worth 330 points, and 11 rounds at 46 bonus add 506, 836 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "953",
+    "36",
+    "95",
+    "40"
+   ],
+   "expect": "The 953 questions at 95 points each are worth 90535 points, and 27 rounds at 40 bonus add 1080, 91615 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "483",
+    "61",
+    "98",
+    "54"
+   ],
+   "expect": "The 483 questions at 98 points each are worth 47334 points, and 8 rounds at 54 bonus add 432, 47766 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "461",
+    "46",
+    "69",
+    "21"
+   ],
+   "expect": "The 461 questions at 69 points each are worth 31809 points, and 11 rounds at 21 bonus add 231, 32040 in all."
+  },
+  {
+   "fn": "points",
+   "args": [
+    "964",
+    "10",
+    "45",
+    "46"
+   ],
+   "expect": "The 964 questions at 45 points each are worth 43380 points, and 97 rounds at 46 bonus add 4462, 47842 in all."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "10550",
+    "89745"
+   ],
+   "expect": "10550 correct of 89745 is 11.8%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "11104",
+    "89496"
+   ],
+   "expect": "11104 correct of 89496 is 12.4%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "14181",
+    "78820"
+   ],
+   "expect": "14181 correct of 78820 is 18%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "46741",
+    "97047"
+   ],
+   "expect": "46741 correct of 97047 is 48.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "45",
+    "4525"
+   ],
+   "expect": "45 correct of 4525 is 1%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "252",
+    "877"
+   ],
+   "expect": "252 correct of 877 is 28.7%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "2165",
+    "14929"
+   ],
+   "expect": "2165 correct of 14929 is 14.5%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "27063",
+    "76876"
+   ],
+   "expect": "27063 correct of 76876 is 35.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "28911",
+    "29358"
+   ],
+   "expect": "28911 correct of 29358 is 98.5%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "5871",
+    "8523"
+   ],
+   "expect": "5871 correct of 8523 is 68.9%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "7704",
+    "86454"
+   ],
+   "expect": "7704 correct of 86454 is 8.9%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "74480",
+    "91719"
+   ],
+   "expect": "74480 correct of 91719 is 81.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "618",
+    "51809"
+   ],
+   "expect": "618 correct of 51809 is 1.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "14781",
+    "19928"
+   ],
+   "expect": "14781 correct of 19928 is 74.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "56161",
+    "98450"
+   ],
+   "expect": "56161 correct of 98450 is 57%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "2061",
+    "76832"
+   ],
+   "expect": "2061 correct of 76832 is 2.7%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "50636",
+    "63899"
+   ],
+   "expect": "50636 correct of 63899 is 79.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "20542",
+    "51563"
+   ],
+   "expect": "20542 correct of 51563 is 39.8%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "3506",
+    "11897"
+   ],
+   "expect": "3506 correct of 11897 is 29.5%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "22668",
+    "70524"
+   ],
+   "expect": "22668 correct of 70524 is 32.1%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "20685",
+    "55455"
+   ],
+   "expect": "20685 correct of 55455 is 37.3%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "3284",
+    "4081"
+   ],
+   "expect": "3284 correct of 4081 is 80.5%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "9127",
+    "24565"
+   ],
+   "expect": "9127 correct of 24565 is 37.2%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "65319",
+    "71967"
+   ],
+   "expect": "65319 correct of 71967 is 90.8%."
+  },
+  {
+   "fn": "score",
+   "args": [
+    "71079",
+    "96949"
+   ],
+   "expect": "71079 correct of 96949 is 73.3%."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "228",
+    "79",
+    "51",
+    "113"
+   ],
+   "expect": "The 228 questions at 79 seconds each with 4 breaks of 113 minutes take 45132 seconds, 12 hours 32 minutes 12 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "769",
+    "1131",
+    "37",
+    "18"
+   ],
+   "expect": "The 769 questions at 1131 seconds each with 20 breaks of 18 minutes take 891339 seconds, 247 hours 35 minutes 39 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "749",
+    "664",
+    "41",
+    "31"
+   ],
+   "expect": "The 749 questions at 664 seconds each with 18 breaks of 31 minutes take 530816 seconds, 147 hours 26 minutes 56 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "559",
+    "256",
+    "84",
+    "104"
+   ],
+   "expect": "The 559 questions at 256 seconds each with 6 breaks of 104 minutes take 180544 seconds, 50 hours 9 minutes 4 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "924",
+    "2725",
+    "78",
+    "102"
+   ],
+   "expect": "The 924 questions at 2725 seconds each with 11 breaks of 102 minutes take 2585220 seconds, 718 hours 7 minutes 0 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "87",
+    "3013",
+    "83",
+    "79"
+   ],
+   "expect": "The 87 questions at 3013 seconds each with 1 break of 79 minutes take 266871 seconds, 74 hours 7 minutes 51 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "914",
+    "530",
+    "15",
+    "97"
+   ],
+   "expect": "The 914 questions at 530 seconds each with 60 breaks of 97 minutes take 833620 seconds, 231 hours 33 minutes 40 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "354",
+    "461",
+    "11",
+    "69"
+   ],
+   "expect": "The 354 questions at 461 seconds each with 32 breaks of 69 minutes take 295674 seconds, 82 hours 7 minutes 54 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "410",
+    "2781",
+    "11",
+    "56"
+   ],
+   "expect": "The 410 questions at 2781 seconds each with 37 breaks of 56 minutes take 1264530 seconds, 351 hours 15 minutes 30 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "568",
+    "2776",
+    "6",
+    "16"
+   ],
+   "expect": "The 568 questions at 2776 seconds each with 94 breaks of 16 minutes take 1667008 seconds, 463 hours 3 minutes 28 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "579",
+    "1715",
+    "69",
+    "17"
+   ],
+   "expect": "The 579 questions at 1715 seconds each with 8 breaks of 17 minutes take 1001145 seconds, 278 hours 5 minutes 45 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "219",
+    "1889",
+    "74",
+    "56"
+   ],
+   "expect": "The 219 questions at 1889 seconds each with 2 breaks of 56 minutes take 420411 seconds, 116 hours 46 minutes 51 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "130",
+    "985",
+    "98",
+    "107"
+   ],
+   "expect": "The 130 questions at 985 seconds each with 1 break of 107 minutes take 134470 seconds, 37 hours 21 minutes 10 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "612",
+    "2285",
+    "48",
+    "98"
+   ],
+   "expect": "The 612 questions at 2285 seconds each with 12 breaks of 98 minutes take 1468980 seconds, 408 hours 3 minutes 0 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "767",
+    "2877",
+    "53",
+    "1"
+   ],
+   "expect": "The 767 questions at 2877 seconds each with 14 breaks of 1 minute take 2207499 seconds, 613 hours 11 minutes 39 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "639",
+    "1904",
+    "45",
+    "38"
+   ],
+   "expect": "The 639 questions at 1904 seconds each with 14 breaks of 38 minutes take 1248576 seconds, 346 hours 49 minutes 36 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "533",
+    "448",
+    "25",
+    "36"
+   ],
+   "expect": "The 533 questions at 448 seconds each with 21 breaks of 36 minutes take 284144 seconds, 78 hours 55 minutes 44 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "809",
+    "1376",
+    "12",
+    "103"
+   ],
+   "expect": "The 809 questions at 1376 seconds each with 67 breaks of 103 minutes take 1527244 seconds, 424 hours 14 minutes 4 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "691",
+    "1484",
+    "35",
+    "48"
+   ],
+   "expect": "The 691 questions at 1484 seconds each with 19 breaks of 48 minutes take 1080164 seconds, 300 hours 2 minutes 44 seconds."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "165",
+    "500",
+    "67",
+    "48"
+   ],
+   "expect": "The 165 questions at 500 seconds each with 2 breaks of 48 minutes take 88260 seconds, 24 hours 31 minutes 0 seconds."
+  }
+ ],
+ "errors": [
+  [
+   "rounds",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "rounds",
+   [
+    "1001",
+    "8"
+   ]
+  ],
+  [
+   "rounds",
+   [
+    "38",
+    "0"
+   ]
+  ],
+  [
+   "rounds",
+   [
+    "38",
+    "101"
+   ]
+  ],
+  [
+   "rounds",
+   [
+    "38.5",
+    "8"
+   ]
+  ],
+  [
+   "points",
+   [
+    "38",
+    "8",
+    "0",
+    "3"
+   ]
+  ],
+  [
+   "points",
+   [
+    "38",
+    "8",
+    "101",
+    "3"
+   ]
+  ],
+  [
+   "points",
+   [
+    "38",
+    "8",
+    "2",
+    "101"
+   ]
+  ],
+  [
+   "points",
+   [
+    "38",
+    "8",
+    "2",
+    "-1"
+   ]
+  ],
+  [
+   "score",
+   [
+    "23",
+    "0"
+   ]
+  ],
+  [
+   "score",
+   [
+    "23",
+    "100001"
+   ]
+  ],
+  [
+   "score",
+   [
+    "39",
+    "38"
+   ]
+  ],
+  [
+   "score",
+   [
+    "-1",
+    "38"
+   ]
+  ],
+  [
+   "score",
+   [
+    "2.5",
+    "38"
+   ]
+  ],
+  [
+   "time",
+   [
+    "38",
+    "0",
+    "8",
+    "10"
+   ]
+  ],
+  [
+   "time",
+   [
+    "38",
+    "3601",
+    "8",
+    "10"
+   ]
+  ],
+  [
+   "time",
+   [
+    "38",
+    "45",
+    "8",
+    "121"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "45",
+    "8",
+    "10"
+   ]
+  ]
+ ]
+}
